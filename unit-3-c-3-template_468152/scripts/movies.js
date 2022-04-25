@@ -16,7 +16,7 @@ try{
  
  const search =  document.querySelector("#search").value
 
-let res = await fetch(`http://www.omdbapi.com/?apikey=3d1edb16&s=${search}`)
+let res = await fetch(`https://www.omdbapi.com/?apikey=3d1edb16&s=${search}`)
 // console.log(res)
 
 let data = await res.json();
